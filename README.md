@@ -12,24 +12,28 @@ The design of the site should mimic the soft, homely feel of the Canine Coffee b
 
 ### User Stories
 
-As Canine Coffee business owner, i want:
-- list item 1 
+As Canine Coffee business owner, I want:
+- a soft neutral design, to reflect the in-store experience.
+- to receive any message from user to my company email, so I do not have to mange an additional inbox.
+- the users to know our core values, to reinforce the brand of my business.
 
-As a user, i want: 
-- list item 1
+As a user, I want: 
+- to easily know how to navigate around the website, so I can find the information I am looking for.
+- to be able to contact coffee canine, so I can ask questions I need answers to.
+- to be able to view the site form any device, so I can use my mobile, tablet or desktop to comfortably view the website.
+- to know the what is available to purchase, so I can make an informed decision on if this business is for me.
+- to know when the business is open, so I can plan my visit.
+- to be able to access the site from any internet connection, so I can look at the website on the go.
+- to enjoy the imagery and design of the site, so I feel positive when using the site.
 
 ### Wireframes
 
 ## Decision log
 
-|Decision      |Comments                  |Implemented?|
-|Example things|This is an example comment| **NO**|
-
-| Month    | Savings |
-| -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| Decision | comment                               | Change required?| 
+| -------- | ------------------------------------- | ----------- |
+| Example  | This an example comment |      **NO**       |
+| Example  | This an example comment |      **YES**       |
 
 ## Deployment
 
