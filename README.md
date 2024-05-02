@@ -246,8 +246,6 @@ The stay in touch main content will be spread across 2 rows.
 
 ## Credits
 
-
-
 ## Testing
 ### Bugs
 ### Smoke Testing 
