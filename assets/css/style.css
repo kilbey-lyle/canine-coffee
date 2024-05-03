@@ -17,7 +17,7 @@ body {
 }
 
 .text-light-green {
-    color:#A5C299;
+    color: #A5C299;
 }
 
 .text-white {
@@ -25,7 +25,7 @@ body {
 }
 
 .text-black {
-    color:#2B2B2B;
+    color: #2B2B2B;
 }
 
 .bg-brown {
@@ -37,7 +37,7 @@ body {
 }
 
 .bg-light-green {
-    background-color:#A5C299;
+    background-color: #A5C299;
 }
 
 .bg-white {
@@ -45,7 +45,7 @@ body {
 }
 
 .bg-black {
-    background-color:#2B2B2B;
+    background-color: #2B2B2B;
 }
 
 
@@ -72,7 +72,8 @@ body {
     font-size: 1.25rem;
 }
 
-.navbar-toggler:focus, .btn-close:focus {
+.navbar-toggler:focus,
+.btn-close:focus {
     box-shadow: none;
     outline: none;
 }
@@ -120,17 +121,122 @@ body {
 }
 
 /*------------------ Why Section*/
-
-.why-wrapper {
-    display: flex;
-    justify-content: center;
+.container-why {
+    margin: 15px;
 }
+
+.why-title,
+.why-subtitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.why-subtitle {
+    text-align: center;
+    font-weight: 300;
+}
+
+.why-content {
+    text-align: center;
+    color: #A5C299;
+}
+
+/*------------------ Meet the team*/
+
+.meet-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px;
+    border: 5px ridge #67322B;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    color: #346940;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #67322B;
+    color: #FFFCfA;
+    transform: rotateY(180deg);
+}
+
+.flip-card img {
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.flip-card-name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFFCfA ;
+    text-decoration-thickness: 4px;
+}
+.flip-card-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+ .flip-card-back-img {
+    background-size:contain;
+    overflow: hidden;
+ }
+
+
 /*------------------ Aniamtions*/
 @keyframes hero-zoom {
     from {
-      transform: scale(1.05);
+        transform: scale(1.05);
     }
+
     to {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
