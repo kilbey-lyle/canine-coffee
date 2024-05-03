@@ -2,34 +2,135 @@
 
 body {
     font-family: Roboto, sans-serif;
-    padding:0;
-    margin:0;
     background-color: #fffcfa;
 }
+
+
 /*------------------ Colors*/
+
+.text-brown {
+    color: #67322B;
+}
+
+.text-dark-green {
+    color: #346940;
+}
+
+.text-light-green {
+    color:#A5C299;
+}
+
+.text-white {
+    color: #FFFCfA;
+}
+
+.text-black {
+    color:#2B2B2B;
+}
+
+.bg-brown {
+    background-color: #67322B;
+}
+
+.bg-dark-green {
+    background-color: #346940;
+}
+
+.bg-light-green {
+    background-color:#A5C299;
+}
+
+.bg-white {
+    background-color: #FFFCfA;
+}
+
+.bg-black {
+    background-color:#2B2B2B;
+}
+
 
 
 /*------------------ Heading*/
-.active {
-    text-decoration: underline;
+
+.navbar {
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 24px;
+    transition: 0.3s color;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
 }
 
 .nav-link {
-    font-weight: 300;
-    font-size: 22px;
-    color: #67322b;
-    display: inline-block;
-    margin: 15px 0 15px 0;
+    font-weight: 500;
+    position: relative;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
-.header-name {
-    font-weight: 300;
-    font-size: 46px;
-    margin-top: 5px;
-    color: #67322b;
-    margin: 15px 0 15px 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-color: #346940;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
 }
+
+.nav-link:hover {
+    color: #346940;
+    border: 1px dashed #67322B;
+    border-radius: 12px;
+}
+
+.nav-link.active:hover {
+    border: none;
+}
+
+.navbar-brand:hover {
+    color: #346940;
+}
+
+/*------------------ Hero Image*/
+
+.hero-img {
+    background: url(../img/woman-drinking-coffee-with-laptop-and-dog.jpg) no-repeat 25% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+
+    animation-name: hero-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+/*------------------ Why Section*/
+
+.why-wrapper {
+    display: flex;
+    justify-content: center;
+}
+/*------------------ Aniamtions*/
+@keyframes hero-zoom {
+    from {
+      transform: scale(1.05);
+    }
+    to {
+      transform: scale(1);
+    }
+  }

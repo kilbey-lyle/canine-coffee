@@ -1,32 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h1 class="header-name">Canine Coffee</h1>
+    <header class="bg-dark-green">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto text-dark-green" href="#">Canine Coffee <i
+                        class="fa-solid fa-paw"></i></a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Canine Coffee</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 text-brown">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 active text-brown" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 text-brown" href="menu.html">Menus</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 text-brown" href="#">Stay in touch</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <nav class="col-lg-5 offset-lg-3 d-flex justify-content-end">
-                    <a href="#" class="active nav-link">Home</a>
-                    <a href="#" class="nav-link">Menu</a>
-                    <a href="#" class="nav-link">Stay In Touch</a>
-                </nav>
+                <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <!--End of Navbar-->
+    </header>
+    <!--Hero image-->
+    <section class="hero-img">
+    </section>
+    <!--End of Hero image-->
+    <!--Why Canine Coffee-->
+    <section class="container-fluid container-why">
+        <div class="row">
+            <h2 class="why-title d-flex justify-content-center">
+                Why Canine Coffee House?
+            </h2>
+        </div>
+        <div class="row">
+            <div class="why-wrapper col-lg-4">
+                <h3 class="why-subtitle">
+                    Delicious Treats
+                </h3>
+                <p class="why-content">
+                    For the humans, we serve up locally sourced home cooked dishes, as well as plenty of healthy
+                    options,
+                    including gluten-free, vegetarian, and vegan dishes. Whether you’re craving a hearty meal or a light
+                    snack, we’ve got you covered.
+
+                    But wait, there’s more! Our special doggy menu features treats that’ll make your pup’s tail wag with
+                    joy. From Puppuccinos (a big bowl of goat milk with chunks of black pudding) to wholesome nibbles,
+                    we’ve
+                    curated a selection that’ll have your furry friend begging for more.
+
+                    So, whether you’re sipping on a latte or sharing a snack with your canine companion, Paws For Coffee
+                    is
+                    the place where food, friendship, and furry love come together.
+                </p>
+            </div>
+            <div class="why-wrapper d-flex justify-content-center col-lg-4">
+                <h3 class="why-subtitle">
+                    That tail wagging feeling
+                </h3>
+                <p class="why-content">
+                    We believe that dogs are more than just furry friends—they’re healers for the soul. Our cozy space
+                    is
+                    designed to be a haven for both humans and their
+                    canine companions. Why do we say that? Well, science tells us that spending time with dogs can
+                    significantly boost our mental health.
+
+                    So, while you enjoy our scrumptious bites or sip on a Canineccino, remember that your mental health
+                    matters—and so does your pup’s.
+
+                    Whether you’re seeking solace, laughter, or simply a warm spot to cuddle with your dog, Canine
+                    Coffee is
+                    where tails wag, hearts connect,
+                    and well-being flourishes.
+                </p>
+            </div>
+            <div class="why-wrapper d-flex justify-content-center col-lg-4">
+                <h3 class="why-subtitle">
+                    We're barking mad
+                </h3>
+                <p class="why-content">
+                    Whether it is a butt sniff or a handshake, We’re more than just a place to grab your favorite brew.
+                    We’re a hub for connection,
+                    conversation, and community. Our comfortable seating arrangements invite you to linger, chat with
+                    friends, or strike up a conversation with fellow coffee enthusiasts and dog lovers. Whether you’re
+                    here
+                    to work, eat, or simply enjoy a cup of coffee,
+                    you’ll find that our Canine Coffee is a warm and welcoming space where relationships brew over
+                    shared
+                    love for that perfect cup and our furry friends.
+                </p>
             </div>
         </div>
-    </header>
-    <section>
 
     </section>
-    <footer>
+    <!--End of Why Canine Coffee-->
 
+
+    <footer>
     </footer>
+    <!--Load Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/289e1d11d0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
