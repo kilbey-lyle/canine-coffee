@@ -3,6 +3,8 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #fffcfa;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -24,7 +26,7 @@ body {
     color: #FFFCfA;
 }
 
-.text-black {
+.text-black-black {
     color: #2B2B2B;
 }
 
@@ -44,7 +46,7 @@ body {
     background-color: #FFFCfA;
 }
 
-.bg-black {
+.bg-black-black {
     background-color: #2B2B2B;
 }
 
@@ -56,7 +58,7 @@ body {
     height: 80px;
     margin: 20px;
     border-radius: 16px;
-    padding: 0.5;
+    padding: 0.5px;
 }
 
 .navbar-brand {
@@ -122,10 +124,18 @@ body {
 
 /*------------------ Why Section*/
 .container-why {
-    margin: 15px;
+    margin: 40px 5px 40px 5px;
 }
 
-.why-title,
+.why-title {
+    margin-bottom: 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
 .why-subtitle {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -138,12 +148,20 @@ body {
     font-weight: 300;
 }
 
+.why-subtitle i {
+    margin-left: 7px;
+}
+
 .why-content {
     text-align: center;
     color: #A5C299;
 }
 
 /*------------------ Meet the team*/
+
+.container-meet {
+    padding-bottom: 70px;
+}
 
 .meet-title {
     text-align: center;
@@ -189,7 +207,6 @@ body {
     /* Safari */
     backface-visibility: hidden;
     border-radius: 10px;
-    border: 5px ridge #67322B;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -226,8 +243,37 @@ body {
 }
  .flip-card-back-img {
     background-size:contain;
-    overflow: hidden;
+    height: 160px;
+    width: 160px;
  }
+
+ /*------------------ footer*/
+
+
+ .footer-icons a {
+    text-decoration: none;
+}
+
+.footer-icons i {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    font-size: 45px;
+    color:#A5C299;
+}
+
+.footer-info p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+} 
+
+.footer-info p strong {
+    text-transform: uppercase;
+    margin-right: 4px;
+    letter-spacing: 1px;
+}
+
 
 
 /*------------------ Aniamtions*/
