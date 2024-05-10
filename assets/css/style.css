@@ -157,6 +157,10 @@ body {
     color: #A5C299;
 }
 
+heading-spacer {
+    margin-top: 100px;
+}
+
 /*------------------ Meet the team*/
 
 .container-meet {
@@ -273,8 +277,6 @@ body {
     margin-right: 4px;
     letter-spacing: 1px;
 }
-
-
 
 /*------------------ Aniamtions*/
 @keyframes hero-zoom {
