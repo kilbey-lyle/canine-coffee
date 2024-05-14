@@ -109,6 +109,17 @@ body {
 .navbar-brand:hover {
     color: #346940;
 }
+/*------------------ asides*/
+
+aside {
+    color: #2B2B2B;
+    text-align: center;
+    max-width: 800px;
+    font-style: italic;
+    font: 12rem;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 /*------------------ Hero Image*/
 
@@ -252,6 +263,78 @@ heading-spacer {
     width: 160px;
  }
 
+ /*------------------ accordion*/
+
+ .accordion-button{
+    text-transform: uppercase;
+ }
+
+ .accordion-button:not(.collapsed) {
+    background-color: #67322B;
+    color: #FFFCfA;
+ }
+
+ .accordion-button::after {
+    background-image: none;
+ }
+
+ .accordion-button:not(.collapsed)::after {
+    background-image: none;
+ }
+
+ .accordion-button:hover{
+    background-color: #A5C299;
+    color: #346940;
+ }
+
+ .accordion-button:not(.collapsed):hover {
+    background-color: #67322B;
+    color: #FFFCfA;
+ }
+
+ .accordion-body {
+    background-color: #FFFCfA;
+ }
+
+  /*------------------ Menus*/
+
+  .menu-item-name {
+    color: #67322B;
+    text-decoration: underline;
+    text-decoration-color: #346940;    
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1.5px;
+  }
+  
+  .menu-item-price {
+    color: #346940;
+    vertical-align:middle;
+  }
+
+  .menu-item-desc {
+    color:#2B2B2B;
+  }
+
+  .drink-section ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .drink-section li {
+    padding-left: var(--icon-space);
+    color: #2B2B2B;
+  }
+  
+  .drink-section li:before {
+    content: "\f1b0"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #346940;
+  }
+
  /*------------------ footer*/
 
 
@@ -289,3 +372,7 @@ heading-spacer {
         transform: scale(1);
     }
 }
+
+/*------------------ Media Queries*/
+
+/*--- BootS md break point*/
