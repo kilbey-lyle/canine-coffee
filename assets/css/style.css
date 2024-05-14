@@ -342,21 +342,20 @@ heading-spacer {
 /*------------------ stay in touch*/
 
 /*--------- about section*/
+
  .container-about {
-    width: 66.66%;
-    display: inline-block;
+    width: 100%;
+    display: block;
  }
 
  .container-about-map {
-    width: 33.33%;
-    float: right;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: block;
  }
 
  .container-about-map iframe {
     width: 100%;
-    height: 100%;
+    height: 100px;
     margin: 5px;
  }
 
@@ -468,3 +467,22 @@ form {
 /*------------------ Media Queries*/
 
 /*--- BootS md break point*/
+
+@media screen and (min-width: 768px) {
+    .container-about {
+        width: 33.33%;
+        display: inline-block;
+     }
+    
+     .container-about-map {
+        width: 66.66%;
+        float: right;
+        display: flex;
+     }
+    
+     .container-about-map iframe {
+        width: 100%;
+        height: 300px;
+        margin: 5px;
+     }
+  }
