@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Canine Coffee</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg sticky-top bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto text-dark-green" href="#">Canine Coffee <i
+                        class="fa-solid fa-paw"></i></a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Canine Coffee</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 text-brown">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 text-brown" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 text-brown" href="menu.html">Menus</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 active text-brown" href="stayintouch.html">Stay in touch</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        </div>
+        <!--End of Navbar-->
+    </header>
+    <!--End of Header-->
+    <!--Accordion-->
+
+    <section>
+        <div class="container-flush container-accordion">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-dark-green text-light-green" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            <strong>About</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body" id="about-section">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-dark-green text-light-green" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <strong>Newsletter Sign-up</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container-fluid container-form">
+                                <form>
+                                    <div class="label-wrapper text-white">
+                                        <div class="row">
+                                            <label class="col-12" for="name" id="form-label">Name:</label>
+                                        </div>
+                                        <div class="row">
+                                            <input class="col-12" type="text" id="name" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="label-wrapper text-white">
+                                        <div class="row">
+                                            <label class="col-12" for="email" id="form-label">Email:</label>
+                                        </div>
+                                        <div class="row">
+                                            <input class="col-12" type="email" id="email" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="label-wrapper col-6 d-flex justify-content-center text-white">
+                                            <input type="radio" id="menu" name="signupType" value="menuUpdates">
+                                            <label for="menu">Menu Updates</label>
+                                        </div>
+                                        <div class="label-wrapper col-6 d-flex justify-content-center text-white">
+                                            <input type="radio" id="event" name="signupType" value="eventUpdates">
+                                            <label for="event">Event Updates</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="label-wrapper col-12 d-flex justify-content-center text-white">
+                                            <input type="radio" id="both" name="signupType" value="both">
+                                            <label for="both">Both</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <input class="text-light-green bg-dark-green col-12 col-lg-2 offset-lg-10" type="submit"
+                                            id="submit-button" value="Sign Me Up">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-dark-green text-light-green" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <strong>Send Us A Message</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body" id="sm-section">
+                            <div class="container-fluid container-form">
+                                <form>
+                                    <div class="label-wrapper text-white col-12">
+                                        <div class="row">
+                                            <label for="name" id="form-label">Name:</label>
+                                        </div>
+                                        <div class="row">
+                                            <input type="text" id="name" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="label-wrapper text-white col-12">
+                                        <div class="row">
+                                            <label for="email" id="form-label">Email:</label>
+                                        </div>
+                                        <div class="row">
+                                            <input type="email" id="email" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="label-wrapper text-white col-12">
+                                        <div class="row">
+                                            <label for="message" id="form-label">Message:</label>
+                                        </div>
+                                        <div class="row">
+                                            <textarea id="message" name="message">Woof!</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <input class="text-light-green bg-dark-green col-12 col-lg-2 offset-lg-10" type="submit" id="submit-button"
+                                            value="Send message">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Accordion-->
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid container-footer">
+            <div class="row footer-icons d-flex justify-content-center bg-black-black">
+                <a href="https://facebook.com/" target="_blank" class="social-link col-4">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="social-link col-4">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="social-link col-4">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row footer-info d-none d-md-flex">
+            <div class="col-6 text-light-green bg-black-black">
+                <p><strong>Telephone: </strong> 01273 111 111</p>
+            </div>
+            <div class="col-6 text-light-green bg-black-black">
+                <p><strong>Email:</strong> caninecoffee@example.com</p>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <!--End of Footer-->
+    <!--Load Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/289e1d11d0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

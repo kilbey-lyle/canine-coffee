@@ -109,6 +109,7 @@ body {
 .navbar-brand:hover {
     color: #346940;
 }
+
 /*------------------ asides*/
 
 aside {
@@ -249,96 +250,154 @@ heading-spacer {
     letter-spacing: 1px;
     font-size: 30px;
     text-decoration: underline;
-    text-decoration-color: #FFFCfA ;
+    text-decoration-color: #FFFCfA;
     text-decoration-thickness: 4px;
 }
+
 .flip-card-title {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 20px;
 }
- .flip-card-back-img {
-    background-size:contain;
+
+.flip-card-back-img {
+    background-size: contain;
     height: 160px;
     width: 160px;
- }
+}
 
- /*------------------ accordion*/
+/*------------------ accordion*/
 
- .accordion-button{
+.accordion-button {
     text-transform: uppercase;
- }
+}
 
- .accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed) {
     background-color: #67322B;
     color: #FFFCfA;
- }
+}
 
- .accordion-button::after {
+.accordion-button::after {
     background-image: none;
- }
+}
 
- .accordion-button:not(.collapsed)::after {
+.accordion-button:not(.collapsed)::after {
     background-image: none;
- }
+}
 
- .accordion-button:hover{
+.accordion-button:hover {
     background-color: #A5C299;
     color: #346940;
- }
+}
 
- .accordion-button:not(.collapsed):hover {
+.accordion-button:not(.collapsed):hover {
     background-color: #67322B;
     color: #FFFCfA;
- }
+}
 
- .accordion-body {
+.accordion-body {
     background-color: #FFFCfA;
- }
+}
 
-  /*------------------ Menus*/
+/*------------------ Menus*/
 
-  .menu-item-name {
+.menu-item-name {
     color: #67322B;
     text-decoration: underline;
-    text-decoration-color: #346940;    
+    text-decoration-color: #346940;
     text-underline-offset: 4px;
     text-decoration-thickness: 1.5px;
-  }
-  
-  .menu-item-price {
+}
+
+.menu-item-price {
     color: #346940;
-    vertical-align:middle;
-  }
+    vertical-align: middle;
+}
 
-  .menu-item-desc {
-    color:#2B2B2B;
-  }
+.menu-item-desc {
+    color: #2B2B2B;
+}
 
-  .drink-section ul {
+.drink-section ul {
     --icon-space: 1.3em;
     list-style: none;
     padding: 0;
-  }
-  
-  .drink-section li {
+}
+
+.drink-section li {
     padding-left: var(--icon-space);
     color: #2B2B2B;
-  }
-  
-  .drink-section li:before {
-    content: "\f1b0"; /* FontAwesome Unicode */
+}
+
+.drink-section li:before {
+    content: "\f1b0";
+    /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: calc( var(--icon-space) * -1 );
+    margin-left: calc(var(--icon-space) * -1);
     width: var(--icon-space);
     color: #346940;
-  }
+}
 
- /*------------------ footer*/
+/*------------------ stay in touch*/
+
+/*--------- about section*/
+.accordion-body img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+}
+
+/*------------------ forms*/
+
+.label-wrapper {
+    margin-top: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+    margin: 0 auto;
+    border:none;
+    border-radius: 5px;
+    color:#67322B;
+}
+
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
+    border:#346940 solid 2px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border:none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #A5C299;
+    color:#346940;
+}
+
+form {
+    margin:10px;
+}
+
+.container-form {
+    background-color: rgb(103,50,43, 0.5);
+    padding:12px;
+    border-radius: 5px;
+}
 
 
- .footer-icons a {
+
+/*------------------ footer*/
+
+
+.footer-icons a {
     text-decoration: none;
 }
 
@@ -347,14 +406,14 @@ heading-spacer {
     justify-content: center;
     margin: 25px;
     font-size: 45px;
-    color:#A5C299;
+    color: #A5C299;
 }
 
 .footer-info p {
     display: flex;
     justify-content: center;
     font-size: 16px;
-} 
+}
 
 .footer-info p strong {
     text-transform: uppercase;
