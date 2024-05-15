@@ -165,7 +165,8 @@ This is the initial design which was reworked as not all user stories were met.
 
 ### Future Features
 
-FILL OUT LATER LYLE YOU SILLY
+- Change color pallet include higher contrast font colors. 
+- Added more images to increase appeal. 
 
 ## Decision log
 
@@ -173,7 +174,7 @@ FILL OUT LATER LYLE YOU SILLY
 | -------- | ------------------------------------- | 
 | To include the accordion structure on every viewport size | This is to aid in development time and increase ease of use for returning users |
 | To remove have responses to send a message form sent to company email | This has been removed as a requirement as it not possible to achieve under the current requirements for this project |
-| Example  | This an example comment |
+| To not change light green text color   | This should be implemented in the future. Has not been included in initial release due to time constraints |
 
 ## Deployment
 This site being hosted by a Git Hub services titles Pages. this was done using the following steps:
