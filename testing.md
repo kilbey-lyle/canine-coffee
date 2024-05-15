@@ -1,7 +1,6 @@
 ## Testing
 This document will capture and record the testing complete to ensure functionality of the Canine Coffee website.  A combination of validation testing, using online validator tools, and functional testing will be used.
 ### Bugs
-- Links on navigation bar moving when being hover over. The links should only have a border added. 
 - Included more imagery to make the site more engaging
 
 #### Solved bugs
@@ -17,6 +16,8 @@ This document will capture and record the testing complete to ensure functionali
     - Paragraph rewritten and updated
 - No action from form when clicking submit button. There should be feedback to user that this has successfully happened.
     - Action and method Attribute added to all forms. Code institutes form dump url used for this. 
+- Links on navigation bar moving when being hover over. The links should only have a border added.
+    - Reduced padding and margins when .navlink is in hover state. this account for the extra width of adding border. 
 
 
 
