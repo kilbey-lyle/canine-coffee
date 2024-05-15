@@ -4,13 +4,15 @@ This document will capture and record the testing complete to ensure functionali
 - Links on navigation bar moving when being hover over. The links should only have a border added. 
 - No action from form when clicking submit button. There should be feedback to user that this has successfully happened. 
 - Incorrect grammar in the why-3, we're barking mad, section of the home page.
-- When on reduced screen sizes lines appear in between sections of the footer.
-- Default favicon should be replaced with styled favicon.
 - Included more imagery to make the site more engaging
 
 #### Solved bugs
 - The main logo does not do anything when clicked. It should take you to the home page.
     - href for anchor element contain logo update to 'index.html'
+- When on reduced screen sizes lines appear in between sections of the footer.
+    - Bug **not reproducible**, error found in testing with chrome developer tools. Footer responsively tested on real mobile devices, no lines appear when UI scale down.
+- Default favicon should be replaced with styled favicon.
+    - favicon.png file added to root dir 
 
 
 #### Unresolved bugs
