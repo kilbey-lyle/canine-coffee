@@ -398,10 +398,15 @@ input[type=text], input[type=email], textarea {
     border:none;
     border-radius: 5px;
     color:#67322B;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 input[type=text]:hover, input[type=email]:hover, textarea:hover {
     border:#346940 solid 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
 }
 
 input[type=radio] {
