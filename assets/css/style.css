@@ -466,8 +466,6 @@ form {
 
 /*------------------ Media Queries*/
 
-/*--- BootS md break point*/
-
 @media screen and (min-width: 768px) {
     .container-about {
         width: 33.33%;
