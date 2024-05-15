@@ -3,7 +3,6 @@ This document will capture and record the testing complete to ensure functionali
 ### Bugs
 - Links on navigation bar moving when being hover over. The links should only have a border added. 
 - No action from form when clicking submit button. There should be feedback to user that this has successfully happened. 
-- Incorrect grammar in the why-3, we're barking mad, section of the home page.
 - Included more imagery to make the site more engaging
 
 #### Solved bugs
@@ -12,7 +11,12 @@ This document will capture and record the testing complete to ensure functionali
 - When on reduced screen sizes lines appear in between sections of the footer.
     - Bug **not reproducible**, error found in testing with chrome developer tools. Footer responsively tested on real mobile devices, no lines appear when UI scale down.
 - Default favicon should be replaced with styled favicon.
-    - favicon.png file added to root dir 
+    - favicon.png file added to root dir. 
+- Incorrect grammar in the why-3, we're barking mad, section of the home page.
+    - 'Our' text removed from why-3 paragraph element.
+- Fix menu introduction paragraph for grammar and spelling mistakes.
+    - Paragraph rewritten and updated
+
 
 
 #### Unresolved bugs
