@@ -185,3 +185,22 @@ This site being hosted by a Git Hub services titles Pages. this was done using t
 - The deployed site will update automatically upon new commits to the master branch.
 
 ## Credits
+
+### Content
+- [Navbar component from bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/)
+    - Used to create navigation bar. Updated Styling to match design. 
+- [Flip Cards](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+    - Used to create flip cards. Updated styling and content to match design.
+- [Font Awesome bullet points](https://stackoverflow.com/questions/13354578/custom-li-list-style-with-font-awesome-icon)
+    - Updated color to match design.
+- [Hero image animation](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main)
+    - updated timing to suit website design. 
+
+### Media
+The images used as hero image and spirit animal photos have been taken from [Pixabay].
+Images from staff photos have been taken from personal collection. 
+
+### Acknowledgements
+- Ideas were taken from the Code Institute's Coffee House and Love Running projects.
+- The the Code Institute tutor support team for helping me with the correct guidance.
+- My mentor, Medale Oluwafemi, for his guidance.

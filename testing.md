@@ -75,6 +75,7 @@ Lighthouse is an in-built dev tool provided by Chrome. It will be used to valid 
 - Reduce image size of profile images.
 - Server image in next gen formats.
     - Images updated to png format.
+
 ###### Won't Do
 - Eliminate render-blocking resources.
     - unable to resolve, bootstrap resource required. Mitigation achieved by using CDN. Can be improved in future by only requesting required components.
@@ -84,5 +85,7 @@ Lighthouse is an in-built dev tool provided by Chrome. It will be used to valid 
     - can be done in future. Mitigation achieved by using CDN.
 - Reduce unused Javascript.
     - Caused due to chrome extension, retest required in incognito window.
+
+##### Test 1
 
 
