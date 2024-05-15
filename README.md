@@ -4,7 +4,9 @@ This project was complete as part of Code Institute's level 5 web application co
 
 ## Overview
 
-This is a web application for coffee shop and restaurant "Canine Coffee". Calling one of brighton's prime dog walking areas, Preston Park, home Canine Coffee aims themselves towards local customers and their furry friends. Offering locally sourced food,  a bespoke doggy menu and a range of coffee and teas Canine Coffee would like build upon their home away from home branding. The overall purpose of this site is to attract new customers, while also giving existing customers a place to get in contact and stay updated. 
+This is a web application for coffee shop and restaurant "Canine Coffee". Calling one of brighton's prime dog walking areas, Preston Park, home Canine Coffee aims themselves towards local customers and their furry friends. Offering locally sourced food,  a bespoke doggy menu and a range of coffee and teas Canine Coffee would like build upon their home away from home branding.
+
+The overall purpose of this site is to attract new customers, while also giving existing customers a place to get in contact and stay updated. 
 
 ## Design
 
@@ -25,6 +27,56 @@ As a user, I want:
 - to know when the business is open, so I can plan my visit.
 - to be able to access the site from any internet connection, so I can look at the website on the go.
 - to enjoy the imagery and design of the site, so I feel positive when using the site.
+
+#### Strategy
+
+The vision for this project would be a website which is a hub for a community. Keep it members not only update to date but connected to each other. 
+
+The goal for this section of work towards to above vision, would be to create the foundations of functioning website. With a focus on making a user friendly and intuitive design. 
+
+The Plan: 
+- Research and define color palette
+- Search and collate images and possible other media
+- Create wireframes
+- Review and iterate wireframes
+- create html and css code base
+- test  
+- improve initial code base, based on testing results
+
+#### Scope
+
+For users, both new and returning, I want to create a good overview of the canine coffee house brand. Including information on available menus, opening times, and the USPs for canine coffee. I want users of the site to understand the canine coffee is about serving nice food and does not take itself to seriously. The coffee shop should be your home away form home. 
+
+In addition to the above, this project should provide a contact point between the business and their customer base.  
+
+#### Structure
+
+I will follow established UI designs so that the user can intuitively navigate through the site. Using designs and structures like accordions, navigation bars, headers, footers, ect, user should feel that familiar feeling. The design will feature a navigation bar which follows the user through the site, so they can navigate to anywhere on the site from anywhere on the site.  
+
+##### Website sections/pages:
+1. Home: A landing page containing the big picture details of canine coffee.
+    - 'Why Canine coffee house': A section on the home page contain the three of the most important information on why you should come to canine coffee house.
+    - 'Meet The Team': A section with photos and some personal insight into the team members of canine coffee. 
+2. Menus: A page containing the menus available from canine coffee.
+    - 'Hooman Menu' (Human menu): Containing the dishes available to order which are for human consumption.
+    - 'Doggo Menu' (Dog menu): Containing the dishes available to order which are for canine consumption.
+    - Drinks: A list of drinks available to purchases.
+3. Stay in touch: A page contain the details on how to get in touch with canine coffee
+    - About: Contains Contact details, Address, Opening time and Map
+    - Send a message: a form to send a message
+    - Newsletter sign-up: a form to sign up to a newsletter
+
+#### Skeleton
+
+The website will be designed to be clear and simple. Wireframes will be created using Balsamiq software. Any changes to wireframes will be documented within the dedicated wireframe section of this document.  
+
+#### Surface
+
+I have selected a color pallet which is simple and calm:
+
+![image](assets/wireframes/AdobeColor-Canine%20Coffee%20(1).jpeg)
+
+As the canine coffee targets pets owners, bringing the association of outside and nature reinforces the brand. The Green and brown colours introduce the feeling of trees, forsets, parks, all environments associated with dogs and dog walking. An off-White and charcoal have been included as a foundational color which is familiar and not over stimulating. reinforcing the feeling of the calmness of home and comfortably. 
 
 ### Wireframes
 
@@ -52,207 +104,83 @@ This is the initial design which was reworked as not all user stories were met.
 ##### Removed:
 - N/A
 
-### Structure 
+## Technologies
 
-This section will outline the plan for using bootstrap to organise content and make the UI responsive to device screen size. 
+1. HTML: To create the structure
+2. CSS: To add styling
+3. Balasamiq: To create wireframes
 
-3 of Bootstrap's breakpoints will be used to:
-- Small, minium width: 576px, mobiles.
-- Medium, minium width: 768px, tablets.
-- Large, minimum width: 992px, desktops.
+## Features
 
-This section will break down each container to show how the intended grid implementation will be configured. 
+### Planned Features
 
-#### Header:
+#### Navigation bar
+- The navigation bar is at the top of the page, and it is fixed to the top. The logo is in the left-hand corner of the navigation, and it links to the index.html page.
+- Other navigation links are included to the right of the navigation bar.
+- To suggest to the user that this is a link a hover affect will be used.
+- Formatting is used to indicate which page you are currently on. 
+- When on a device with a smaller screen size, the links to other pages are hidden within a menu. A link to menu has been placed in the stead of the links.
 
-The header will be contained within one row.
-##### Small:
-![image](/assets/wireframes/wireframe-header-small.png)
-'Canine Coffee' = 8 columns
-Burger menu = 4 columns
+#### Home
+- The background color is white to create a simple design.
+- includes a simple animation when loading to add interest to the site.
 
-##### Medium:
-![image](/assets/wireframes/wireframe-header-mid.png)
+#### Hero Image
+- Includes relevant imagery to the company's brand.
+- Has a simple animation to give a welcoming feeling to the home page of the site.
+- Is placed behind the navigation bar to give the site a seamless feel.
 
-'Canine Coffee' = 4 columns offset 4
-Burger menu = 4 columns
+#### Why Canine Coffee
+- This will be simple text and icons
+- Contains the USP for canine coffee to interest a user in going into the coffee shop.
+- Includes relevant iconography to increase atheistic appeal. 
 
-##### Large:
-![image](/assets/wireframes/wireframe-header-lg.png)
+#### Meet the team
+- Contains photos to show personality of the company's brand.
+- Is placed on flip cards to add interactivity to the site.
+- Include a humours way of showing the staff's personality. It does this by using comparison to well-known dog breeds. 
+- Has a different color background than the rest of the home screen to help show the section of the page. 
 
-'Canine Coffee' = 4 columns.
-Burger menu = 4 columns offset 4.
+#### Accordion structure
+- Is used on both menu and stay in touch page
+- Is be used to show the sectioning of the page in addition to aid in navigation of the site.
+- Includes relevant iconography to increase atheistic appeal.
+- Uses hover to indicate to users this is a button which has an action.
 
-#### Footer:
+#### Menus
+- Uses brand colours for consistency
+- Include a description of brand's thoughts on their menus. so the user gets to know canine coffee better. 
+- Includes detailed description of the menu items to entice customers.
+- Has used relevant iconography instead on bullet points.
 
-The footer will be contained within two rows.
-**Row 1:** Facebook, Instagram, Twitter.
-**Row 2:** Email, Telephone.
+#### Stay in touch
+- Contains forms the user can used to contact the business.
+- Contains an iframe map to clearly show where the business is located.
+- About information formatted to match menus to add to the ease of use of the site. 
 
-##### Small:
-![image](/assets/wireframes/wireframe-footer-sm.png)
-**Row 1:** 
-- Facebook = 4 columns.
-- Instagram = 4 columns.
-- Twitter = 4 columns.
+#### Forms
+- Uses hover to show the users this is something which can be interacted with.
+- All forms to styled the same to add to ease of use. 
 
-**Row 2** = display None.
+### Future Features
 
-##### Medium:
-![image](/assets/wireframes/wireframe-footer-mid.png)
-**Row 1:** 
-- Facebook = 4 columns.
-- Instagram = 4 columns.
-- Twitter = 4 columns.
-
-**Row 2:**
-- Email = 4 columns.
-- Telephone = 4 columns.
-
-##### Large:
-![image](/assets/wireframes/wireframe-footer-lg.png)
-**Row 1:** 
-- Facebook = 4 columns.
-- Instagram = 4 columns.
-- Twitter = 4 columns.
-
-**Row 2:**
-- Email = 4 columns offset 2 columns.
-- Telephone = 4 columns.
-
-#### Home Main Content
-
-The main content for the home screen will be placed into its own container and will be spread across 5 rows.
-**Row 1:** Hero Image
-**Row 2:** Why Canine Coffee? title
-**Row 3:** Why 1, Why 2, Why 3 titles and contents
-**Row 4:** Meet the Team titles 
-**Row 5:** Meet the team content
-
-##### Small:
-**Row 1:** 
-- Hero Image = 12 columns.
-
-**Row 2:**
-- Why Canine Coffee? title = 12 columns.
-
-**Row 3:** 
-- Why 1 title and content = 12 columns.
-- Why 2 title and content = 12 columns.
-- Why 3 title and content = 12 columns.
-
-**Row 4:** 
-- Meet the Team titles = 12 columns.
-
-**Row 5:** 
-- Meet the team 1 = 12 columns.
-- Meet the team 2 = 12 columns.
-- Meet the team 3 = 12 columns.
-- Meet the team 4 = 12 columns.
-
-#### Menu Main Content
-
-the menu main content container will be spread across 2 rows. 
-**Row 1:** Human Menu container, drinks Menu container.
-**Row 2:** Dog Menu container, Image, 
-
-##### Large:
-
-**Row 1:**
-- Human Menu container = 8 columns
-- Drinks Menu container = 4 columns.
-
-**Row 2:**
-- Dog Menu container = 8 columns.
-- image = 4 columns.
-
-#### Human menu container
-
-The human menu container is broken up into seven rows
-**Row 1:** Menu title.
-**Row 2:** Item title, item description.
-**Row 3:** Item title, item description.
-**Row 4:** Item title, item description.
-**Row 5:** Item title, item description.
-**Row 6:** Item title, item description.
-**Row 7:** Item title, item description.
-
-All items above will be set to 12 columns as all should exist on their own line. This could be achieved using the display property in css without using bootstrap. However, Bootstrap will be implemented to ease future development and remain consistent with rest of the programming done for this project.
-
-#### Drinks menu container
-
-The human menu container is broken up into seven rows
-**Row 1:** Menu title.
-**Row 2:** Item title, item description.
-**Row 3:** Item title, item description.
-**Row 4:** Item title, item description.
-**Row 5:** Item title, item description.
-**Row 6:** Item title, item description.
-**Row 7:** Item title, item description.
-
-All items above will be set to 12 columns as all should exist on their own line. This could be achieved using the display property in css without using bootstrap. However, Bootstrap will be implemented to ease future development and remain consistent with rest of the programming done for this project. 
-
-#### Dog menu container
-
-The human menu container is broken up into seven rows
-**Row 1:** Menu title.
-**Row 2:** Item title, item description.
-**Row 3:** Item title, item description.
-**Row 4:** Item title, item description.
-**Row 5:** Item title, item description.
-**Row 6:** Item title, item description.
-**Row 7:** Item title, item description.
-
-All items above will be set to 12 columns as all should exist on their own line. This could be achieved using the display property in css without using bootstrap. However, Bootstrap will be implemented to ease future development and remain consistent with rest of the programming done for this project. 
-
-#### Stay in touch main content
-
-The stay in touch main content will be spread across 2 rows. 
-**Row 1:** Send a Message form, Newsletter sign-up form. 
-**Row 2:** About Section
-
-##### Small:
-**Row 1:**
-- Send a Message form = 12 columns.
-- Newsletter sign-up form = 12 columns. 
-
-**Row 2:** 
-- About Section = 12 columns.
-
-##### Medium:
-**Row 1:**
-- Send a Message form = 12 columns.
-- Newsletter sign-up form = 12 columns.
-
-**Row 2:** 
-- About Section = 12 columns.
-
-##### Large:
-**Row 1:**
-- Send a Message form = 6 columns.
-- Newsletter sign-up form = 6 columns.
-
-**Row 2:** 
-- About Section = 12 columns.
+FILL OUT LATER LYLE YOU SILLY
 
 ## Decision log
 
-| Decision | comment                               | Change required?| 
-| -------- | ------------------------------------- | ----------- |
-| Example  | This an example comment |      **NO**       |
-| Example  | This an example comment |      **YES**       |
+| Decision | Comment                               | 
+| -------- | ------------------------------------- | 
+| To include the accordion structure on every viewport size | This is to aid in development time and increase ease of use for returning users |
+| To remove have responses to send a message form sent to company email | This has been removed as a requirement as it not possible to achieve under the current requirements for this project |
+| Example  | This an example comment |
 
 ## Deployment
+This site being hosted by a Git Hub services titles Pages. this was done using the following steps:
+- In the Github repository, the Setting tab.
+- Under General, navigate to Code and Automation and select 'Pages'.
+- In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
+- For Branch, select 'main' from the drop-down list and Save.
+- On the top of the page, the link to the complete website is provided.
+- The deployed site will update automatically upon new commits to the master branch.
 
 ## Credits
-
-## Testing
-### Bugs
-### Smoke Testing 
-### HTML Validator Testing
-### CSS Validator Testing
-### Lighthouse Validator Testing
-### Functional Testing
-
-
-
