@@ -109,6 +109,7 @@ This is the initial design which was reworked as not all user stories were met.
 1. HTML: To create the structure
 2. CSS: To add styling
 3. Balasamiq: To create wireframes
+4. Tinypng.com: to compress images
 
 ## Features
 

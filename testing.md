@@ -65,4 +65,24 @@ As a user, I want:
 
 ### Lighthouse Validator Testing
 
+Lighthouse is an in-built dev tool provided by Chrome. It will be used to valid accessibly and loading times of the web page. Anything marked red in lighthouse's traffic light system will be considered. 
+
+#### Home
+##### Test 1
+![Lighthouse results test 1](./assets/readme-imgs/lighthouse-test1.png)
+###### Will Do
+- Reduce image size of hero image.
+- Reduce image size of profile images.
+- Server image in next gen formats.
+    - Images updated to png format.
+###### Won't Do
+- Eliminate render-blocking resources.
+    - unable to resolve, bootstrap resource required. Mitigation achieved by using CDN. Can be improved in future by only requesting required components.
+- Preconnect to required origins (font awesome)
+    - Can be implemented in future.
+- Reduce unused CSS (font awesome).
+    - can be done in future. Mitigation achieved by using CDN.
+- Reduce unused Javascript.
+    - Caused due to chrome extension, retest required in incognito window.
+
 
