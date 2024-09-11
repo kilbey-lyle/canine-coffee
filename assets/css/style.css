@@ -110,7 +110,8 @@ body {
 }
 
 .nav-link.active:hover {
-    border: none;
+    border: 1px solid #ffffffff;
+    transition: none;
 }
 
 .navbar-brand:hover {
