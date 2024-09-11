@@ -141,5 +141,28 @@ Lighthouse is an in-built dev tool provided by Chrome. It will be used to valid 
 - Higher Contrast text color
     - Can be updated in future
 
+### Requirement Evidence
+
+This section will provided screenshot evidence that all user stories have been implemented. 
+
+#### As Canine Coffee business owner, I want:
+
+| Story | Evidence                               | 
+| -------- | ------------------------------------- | 
+| a soft neutral design, to reflect the in-store experience. | ![image]() |
+|to receive any message from user to my company email, so I do not have to mange an additional inbox.| ![image]()|
+|the users to know our core values, to reinforce the brand of my business.| ![image]()|
+
+#### As a user, I want: 
+ Story | Evidence                               | 
+| -------- | ------------------------------------- | 
+| to easily know how to navigate around the website, so I can find the information I am looking for.| ![image]() |
+| to be able to contact coffee canine, so I can ask questions I need answers to.| ![image]() |
+| to be able to view the site form any device, so I can use my mobile, tablet or desktop to comfortably view the website.| ![image]() |
+|to know the what is available to purchase, so I can make an informed decision on if this business is for me. | ![image]() |
+| to know when the business is open, so I can plan my visit. | ![image]() |
+| to be able to access the site from any internet connection, so I can look at the website on the go.| ![image]() |
+|to enjoy the imagery and design of the site, so I feel positive when using the site. | ![image]() |
+
 
 
